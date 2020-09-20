@@ -19,5 +19,4 @@ jobs:
       run: dotnet build --configuration Release
     - name: Run unit tests
       run: dotnet test --no-build --configuration Release
-    - name: Run App
-      run: call run.bat
+    
